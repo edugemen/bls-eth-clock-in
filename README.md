@@ -32,6 +32,10 @@ WorkerClockIn.options.gasPrice = 1
 WorkerClockIn.options.gas = 5000000
 ```
 
+There is a video tutorial here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QnFehd40sGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Extra
 
 When initializing ethermint, you must add to the second command `--rcp-api eth,net,web3,personal,admin`
