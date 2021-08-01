@@ -2,11 +2,13 @@
 
 ## Overview
 
-This projects helps to keep track of the workers that are doing their job and if 
+This projects helps to keep track of the workers that are doing their job and have a proof of that. I used BLS encryption to make an aggregated signature of every workers period signature.
 
-este proyecto ayuda a 
-descripcion rapida
-tecnologias(bls)
+This is the sequence diagram of the project:
+
+![UML sequence diagram of the code](https://ibb.co/3dHhkf6)
+
+There should be 2 roles that can be switching: workers and validators. Validators are the ones that interact with the eth blockchain by enabling periods and aggregating signatures. Workers just have to clock in every period.
 
 ## Instalation
 
@@ -32,9 +34,7 @@ WorkerClockIn.options.gasPrice = 1
 WorkerClockIn.options.gas = 5000000
 ```
 
-There is a video tutorial here:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QnFehd40sGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+There is a video tutorial here: https://youtu.be/QnFehd40sGk
 
 ### Extra
 
@@ -46,4 +46,3 @@ You can add it to the init.sh so you dont forget:
 echo -e "ethermintcli rest-server --laddr \"tcp://localhost:8545\" --unlock-key $KEY --chain-id $CHAINID --trust-node --rcp-api eth,net,web3,personal,admin --unsafe-cors --trace\n"
 ```
 
-## Documentation
