@@ -6,7 +6,7 @@ This projects helps to keep track of the workers that are doing their job and ha
 
 This is the sequence diagram of the project:
 
-![UML sequence diagram of the code](https://ibb.co/3dHhkf6)
+![UML sequence diagram of the code](https://www.linkpicture.com/q/bls-eth-clock-in-diagram.png)
 
 There should be 2 roles that can be switching: workers and validators. Validators are the ones that interact with the eth blockchain by enabling periods and aggregating signatures. Workers just have to clock in every period.
 
