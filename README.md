@@ -1,4 +1,4 @@
-# Worker clock in for POS blockchains
+# Optimizing worker tracking for POS blockchains
 
 ## Overview
 
