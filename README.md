@@ -2,7 +2,7 @@
 
 ## Overview
 
-This projects helps to keep track of the workers that are doing their job and have a proof of that. I used BLS encryption to make an aggregated signature of every workers period signature.
+This projects helps to keep track of the workers that will commit to work and have a proof of that. I used BLS encryption to make an aggregated signature of every workers period signature.
 
 This is the sequence diagram of the project:
 
@@ -23,7 +23,7 @@ struct Worker {
 
 ### enablePeriod()
 
-This functions is called by the validator. It makes it possible for workers to clock in the period that has been validated. In this project, the period is a day, but it can be changed easily
+This functions is called by the validator. It makes it possible for workers to clock in the period that has been validated. In this project, the period is a day, but it can be changed easily.
 
 ### clockIn()
 
